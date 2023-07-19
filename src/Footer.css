@@ -107,7 +107,7 @@ ul {
 .footer-widget ul li a:hover{
   color: #ff5e14;
 }
-.footer-widget ul li a {
+.footer-widget ul li a,.footer-widget ul li Link {
   color: #878787;
   text-transform: capitalize;
 }
@@ -154,7 +154,11 @@ ul {
 .footer-menu li:hover a{
   color: #ff5e14;
 }
-.footer-menu li a {
+.footer-menu li a ,.footer-menu li Link{
   font-size: 14px;
   color: #878787;
+}
+
+.journal-info img, .footer-social-icon img{
+  height: unset !important;
 }

@@ -1,7 +1,10 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
-import Footer from './Footer';
 const Layout = () => {
+  const scrollTop=()=>{
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
   return (
     <div>    
       <nav id="main-nav">
@@ -19,26 +22,23 @@ const Layout = () => {
            <a href="/" class="smoothScroll">Home</a>
           </li>
           <li>
-            <Link to="/WebDev">Web Dev</Link>
+            <Link to="/WebDev" onClick={scrollTop}>Web Dev</Link>
           </li>
           <li>
-            <Link to="/Academics">Academics</Link>
+            <Link to="/Academics" onClick={scrollTop}>Academics</Link>
           </li>
           <li>
-            <Link to="/consulting">Consulting</Link>
+            <Link to="/Guesstimates" onClick={scrollTop}>Guesstimates</Link>
+          </li>
+        
+          <li>
+            <a href='https://drive.google.com/file/d/1SsuhGydBu-eA72Opg_B_zfRnkCwt1H3l/view?usp=drive_link' target='blank'>Cover</a>
           </li>
           <li>
-            <Link to="/cover">Cover</Link>
+            <a href='https://drive.google.com/file/d/1qed0tmbfv5Ei5kz92JkxhRLCCM0DnAOc/view?usp=drive_link' target='blank'>Resume</a>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
-          </li>
-          <li>
-            <Link to="/linkedin">LinkedIn</Link>
-          </li>
-          <li>
-          {/* <Link to="#footer">Contact</Link> */}
-          <a href='#footer'>Contact</a>
+            <Link to="/linkedin" onClick={scrollTop}>LinkedIn</Link>
           </li>
           </ul>
   
@@ -46,7 +46,6 @@ const Layout = () => {
       </div>
     </nav>
       <Outlet />
-      {/* <Footer/> */}
 
     </div>
   )

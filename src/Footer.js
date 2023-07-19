@@ -1,8 +1,13 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 import "./Footer.css";
 import logo from "./myport.png";
 
 const Footer = () => {
+  const scrollTop=()=>{
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
   return (
     <hope>
       <head>
@@ -66,8 +71,8 @@ const Footer = () => {
                   </div>
                   <div class="footer-text">
                     <p>
-                      My Portfolio website is here to showcase all 15 academic projects,
-                       10+ web development projects, skills, cover letter, awards, involvement and personal details
+                      My Portfolio website is here to showcase all 5 best academic projects,
+                       7 best web development projects, skills, cover letter, involvement and personal details
                        of Mr. Utkarsh Gupta
                     </p>
                   </div>
@@ -80,14 +85,13 @@ const Footer = () => {
                     <h3>Useful Links</h3>
                   </div>
                   <ul>
-                    <li><a href="/">Home</a></li>
-                                <li><a href="/">Cover Letter</a></li>
-                                <li><a href="/">Resume</a></li>
-                                <li><a href="/">Skills</a></li>
-                                <li><a href="/">Recognition</a></li>
-                                <li><a href="/">Academics</a></li>
-                                <li><a href="/">Web Dev</a></li>
-                                <li><a href="/">Guesstimates</a></li>
+                                <li><a href="/">Home</a></li>
+           <li> <a href='https://drive.google.com/file/d/1SsuhGydBu-eA72Opg_B_zfRnkCwt1H3l/view?usp=drive_link' target='blank'>Cover Letter</a></li>
+           <li> <a href='https://drive.google.com/file/d/1qed0tmbfv5Ei5kz92JkxhRLCCM0DnAOc/view?usp=drive_link' target='blank'>Resume</a></li>
+           <li>  <Link to="/Academics" onClick={scrollTop}>Academics</Link></li>
+           <li> <Link to="/WebDev" onClick={scrollTop}>Web Dev</Link></li>
+           <li>  <Link to="/guesstimates" onClick={scrollTop}>Guesstimates</Link></li>
+      {/* <Outlet /> */}
                                
                   </ul>
                 </div>

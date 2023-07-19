@@ -8,7 +8,6 @@ const Menu = [
       remark:"Water Resource Engineering under Prof. DJ Sen",
       repo:"https://bit.ly/3O1B2Q6",
       host:"Not Applicable",
-      yt:"https://www.youtube.com/embed/A1slKzd3IHE",
       image: "images/dam.JPG",
       description:"The semester assignment included finding of appropriate location for constructing a dam(in a 10 m contour interval map) and suggest design of 40 m height concrete dam using 90% dependable rainfall data."
     },
@@ -21,7 +20,6 @@ const Menu = [
       remark:"Environment Impact Assessment under Prof. Shubha Verma",
       repo:"https://bit.ly/44Hbm0O",
       host:"Not Applicable",
-      yt:"https://www.youtube.com/embed/A1slKzd3IHE",
       image: "images/eia.JPG",
       description:"The assessment includes project overview, Description of Existing Environment, Impact prediction, mitigation measures and environmental monitoring programme."
     },
@@ -34,7 +32,6 @@ const Menu = [
       remark:"Introduction to innovation and entrepreneurship under Prof. Mrigank Sharad",
       repo:"https://bit.ly/3D9KUkp",
       host:"Not Applicable",
-      yt:"https://www.youtube.com/embed/A1slKzd3IHE",
       image: "images/elite.JPG",
       description:"Elite smart dustbin is a smart dustbin connected to a website. The user registers in website and receives elite points(Waste to reward system) for dumping wastes in our dustbin. The website also helps recycling factories to trace filled dustbins and increase their supplies. ELite points are utilised by user in availing offers at Elite marketplace of recycled products "
     },
@@ -47,7 +44,6 @@ const Menu = [
       remark:"Introduction to Civil Engineering under Prof. Baidurya Bhattacharya",
       repo:"https://bit.ly/3XLA11M",
       host:"Not Applicable",
-      yt:"https://www.youtube.com/embed/A1slKzd3IHE",
       image: "images/seismic.JPG",
       description:"The project envisions early prediction of earthquakes at prone areas. It includes, data analysis, python coding, and mitigation measures to avoid severe damage."
     },
@@ -60,7 +56,6 @@ const Menu = [
       remark:"DIY Project course",
       repo:"https://bit.ly/43rXru9",
       host:"Not Applicable",
-      yt:"https://www.youtube.com/embed/A1slKzd3IHE",
       image: "images/solar.JPG",
       description:"The team conducted extensive data analysis of 1000 data points in 40+ cities of India to achieve an accuracy rate of 98.5% in results of the survey.We estimated reduction of solar panel installation cost by 30% and ensured 15 years of payback period for on-grid power systems and 10 years for off-grid."
     },

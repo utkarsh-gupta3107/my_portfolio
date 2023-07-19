@@ -13,7 +13,7 @@ const WebDev = ({menuData}) => {
   <h1>Web Development Projects</h1>
   <section>
   {menuData.map((curElem)=>{
-        const {id,title,timestamp,lang,remark,repo,host,yt, description}= curElem;
+        const {id,title,norec,timestamp,lang,remark,repo,host,yt, description}= curElem;
 return(
   <>
   <br></br>
@@ -49,8 +49,8 @@ return(
       <article>
         <h4>Languages/Tools</h4>
         <p>{lang}</p>
-        <p>I am currently working on recording all my videos. Some of them are yet to be embedded.</p>
-        <iframe width="360" height="202.5" src={yt} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </article>
+        <p>{norec}</p>
+        <iframe width="310" height="202.5" src={yt} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </article>
     </div></>
 
 )

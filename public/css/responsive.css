@@ -91,9 +91,7 @@
 
 @media (max-width: 767px) {
   /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
@@ -162,9 +160,7 @@
 
 @media (max-width: 600px) {
   /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
@@ -233,9 +229,7 @@
 
 @media (max-width: 480px) {
   /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
@@ -303,9 +297,7 @@
 
 @media (max-width: 320px) {
   /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
+  
   .nav-menu {
     margin-top: 40px;
     display: none;

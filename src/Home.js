@@ -21,45 +21,40 @@ const Home = () => {
         
                   <div class="services-block">
         
-                    <i class="ion-ios-browsers-outline"></i>
-                    <span>Web Dev</span>
-                    <p class="separator">I have 3 years of Experience in Web development, with proficiency 
-                      in HTML, CSS, JS, ReactJS, NodeJS, and MongoDB.</p>
+                  <i class="icon ion-ios-world-outline"></i>
+                                      <span>Web Dev</span>
+                    <p class="separator">I have three years of Experience in full stack development and deployment.</p>
                   </div>
         
                   <div class="services-block">
         
                     <i class="ion-ios-lightbulb-outline"></i>
                     <span>Consulting</span>
-                    <p class="separator">My interests in consulting are strongly supported by
-                      my leadership qualities and effective communication skills</p>
+                    <p class="separator">My leadership qualities and communication skills strongly support my interest in consulting.</p>
                   </div>
         
-                   <div class="services-block">
-        
-                    <i class="ion-social-android-outline"></i>
-                    <span>Academics</span>
-                    <p class="separator">Coursework at IIT Kharagpur involve diverse projects displayed in 'Academics'.</p>
+                   <div class="services-block">                 
+                   <i class="icon ion-ios-book-outline"></i>
+                                       <span>Academics</span>
+                    <p class="separator">Coursework at IIT Kharagpur involve diverse projects and are displayed in 'Academics'.</p>
                   </div>
         
                   <div class="services-block">
-        
-                    <i class="ion-ios-analytics-outline"></i>
+                  <i class="icon ion-ios-people-outline"></i>
                     <span>Social Media</span>
-                    <p class="separator">I'm active on all the social media handles especially LinkedIn,
-                       where I have 2000+ professional following.</p>
+                    <p class="separator">I have 2000+ professional following and 20000+ post impressions on LinkedIn.</p>
                   </div>
                   <div class="services-block">
         
                     <i class="ion-ios-color-wand-outline"></i>
                     <span>Dramatics</span>
-                    <p class="separator">I have been part of several streetplays and stageplays.</p>
+                    <p class="separator">I have been part of several award winning streetplays and stageplays at Pravah.</p>
                   </div>
         
                   <div class="services-block">
         
-                    <i class="ion-ios-camera-outline"></i>
-                    <span>Hobbies</span>
+                  <i class="icon ion-ios-musical-notes"></i>
+                                      <span>Hobbies</span>
                     <p class="separator">There is a plethora of hobbies I love to do, such as singing, swimming and flute.</p>
                   </div>
         
@@ -86,12 +81,13 @@ const Home = () => {
   
           <div class="col-lg-7">
             <div class="about-descr">
-              <p class="p-heading">About Me</p>
+              {/* <p class="p-heading">About Me</p> */}
+      <h2>About Me</h2>
+
               <p class="separator">Hello there! My name is Utkarsh Gupta. I am a 4th year under-graduate student from the department of Civil Engineering at Indian Institute of Technology, Kharagpur. I am from Bhadrak, Odisha. 
               I am proficient in web development and consulting.</p>
-              <p>Watch my introduction video below.</p>
-              <iframe width="360" height="202.5" src="https://www.youtube.com/embed/A1slKzd3IHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
-  
+              <p>Know me more by watching my introduction video below.</p>
+              <iframe width="360" height="202.5" src="https://www.youtube.com/embed/iWkP_SbBb6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
   
           </div>
@@ -148,11 +144,11 @@ const Home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="journal-info">
   
-                <a href="blog-single.html"><img src="images/pravah1.jpg" class="img-responsive" alt="img"/></a>
+                <img src="images/pravah1.jpg" class="img-responsive" alt="img"/>
   
                 <div class="journal-txt">
   
-                  <h4><a href="blog-single.html">TECHNOLOGY DRAMATICS SOCIETY, PRAVAH</a></h4>
+                  <h4><a href="https://www.instagram.com/pravah_iitkgp/" target='blank'>TECHNOLOGY DRAMATICS SOCIETY, PRAVAH</a></h4>
                   <p class="separator">I am a Theatre Practitoner and a director at Pravah. The team bagged bronze position in Streetplay competition at Springfest 2023.</p>
   
                 </div>
@@ -163,11 +159,11 @@ const Home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="journal-info">
   
-                <a href="blog-single.html"><img src="images/megalith1.jpg" class="img-responsive" alt="img"/></a>
+                <img src="images/megalith1.jpg" class="img-responsive" alt="img"/>
   
                 <div class="journal-txt">
   
-                  <h4><a href="#blog-single.html">MEGALITH, CIVIL ENGINEERING FEST</a></h4>
+                  <h4><a href="https://www.instagram.com/iitkgp.megalith/" target='blank'>MEGALITH, CIVIL ENGINEERING FEST</a></h4>
                   <p class="separator">I started as Web Team Member at India's largest departmental fest. On 2022, I became a Web Team Head and currently I am serving as Executive Advisor of the society.</p>
   
                 </div>
@@ -178,11 +174,11 @@ const Home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="journal-info">
   
-                <a href="blog-single.html"><img src="images/share.jpg" class="img-responsive" alt="img"/></a>
+               <img src="images/share.jpg" class="img-responsive" alt="img"/>
   
                 <div class="journal-txt">
   
-                  <h4><a href="blog-single.html">ShARE(SHARING ANALYSIS FOR REGIONAL ECONOMICS)</a></h4>
+                  <h4><a href="https://www.instagram.com/share_iitkgp/" target='blank'>ShARE(SHARING ANALYSIS FOR REGIONAL ECONOMICS)</a></h4>
                   <p class="separator">I played a significant role as Junior Member at ShARE, IIT Kharagpur. I participated in International batch programme of global ShARE case study competition.</p>
   
                 </div>

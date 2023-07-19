@@ -267,7 +267,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll left center / cover;
+  background: url("../images/home-bg.jpg") repeat scroll right center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -373,9 +373,23 @@ nav ul li a {
 /* #services .container{
   max-width:400px
 } */
-.container{
-  padding:0%;
+@media (min-width:580px) {
+  .container{
+    padding:0 !important; 
+  }
 }
+@media (max-width:580px) {
+.container{
+  padding-right: 45px !important;
+}
+}
+@media (max-width:986px) {
+  .headerL{
+    margin-top: -45px;
+
+  }
+}
+
 .owl-item {
   float: left;
 }
@@ -517,6 +531,7 @@ nav ul li a {
   height: auto;
   width: 100%;
 }
+
 
 #journal .journal-block .journal-info {
   position: relative;

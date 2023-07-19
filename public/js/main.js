@@ -1,5 +1,4 @@
 /*global $, jQuery, alert*/
-
 $(document).ready(function() {
 
   'use strict';
@@ -71,6 +70,9 @@ $(document).ready(function() {
   $('.responsive').on('click', function(e) {
     $('.nav-menu').slideToggle();
   });
+  $('.nav-menu list-unstyled li a').on('click', function(e) {
+    $('.nav-menu').slideToggle();
+  });
 
   // ========================================================================= //
   //  Typed Js
@@ -80,7 +82,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Utkarsh Gupta.", "a Web Developer.", "a Consultant.", "a Freelancer.", "a Singer"],
+      strings: ["Utkarsh Gupta.", "a Web Developer.", "a Consultant.", "a Freelancer.", "a Singer too:)"],
       typeSpeed: 100,
       loop: true,
     });
