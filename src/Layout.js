@@ -12,23 +12,23 @@ const Layout = () => {
         <div class="container">
   
           <div class="logo">
-            <a href="/"><img src="images/myport.png" alt="logo"/></a>
+            <a href="/my_portfolio/"><img src="images/myport.png" alt="logo"/></a>
           </div>
   
           <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
   
           <ul class="nav-menu list-unstyled">
             <li>
-           <a href="/" class="smoothScroll">Home</a>
+           <a href="/my_portfolio/" class="smoothScroll">Home</a>
           </li>
           <li>
-            <Link to="/WebDev" onClick={scrollTop}>Web Dev</Link>
+            <Link to="/my_portfolio/WebDev" onClick={scrollTop}>Web Dev</Link>
           </li>
           <li>
-            <Link to="/Academics" onClick={scrollTop}>Academics</Link>
+            <Link to="/my_portfolio/Academics" onClick={scrollTop}>Academics</Link>
           </li>
           <li>
-            <Link to="/Guesstimates" onClick={scrollTop}>Guesstimates</Link>
+            <Link to="/my_portfolio/Guesstimates" onClick={scrollTop}>Guesstimates</Link>
           </li>
         
           <li>
@@ -38,7 +38,7 @@ const Layout = () => {
             <a href='https://drive.google.com/file/d/1qed0tmbfv5Ei5kz92JkxhRLCCM0DnAOc/view?usp=drive_link' target='blank'>Resume</a>
           </li>
           <li>
-            <Link to="/linkedin" onClick={scrollTop}>LinkedIn</Link>
+            <Link to="/my_portfolio/linkedin" onClick={scrollTop}>LinkedIn</Link>
           </li>
           </ul>
   

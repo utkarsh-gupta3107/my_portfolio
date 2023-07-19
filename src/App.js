@@ -21,13 +21,13 @@ function App() {
     
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="/"  index element={<Home />} />
+        <Route path="/my_portfolio/" element={<Layout />}>
+          <Route path="/my_portfolio/"  index element={<Home />} />
           {/* <Route path='/' element={<Home />} /> */}
-          <Route path="Academics" element={<AcadProj menuData={menuData} />} />
-          <Route path="WebDev" element={<WebDev menuData={ZenuData} />} />
-          <Route path="linkedin" element={<LinkedIn />} />
-          <Route path="Guesstimates" element={<Consulting menuData={CenuData} />} />
+          <Route path="/my_portfolio/Academics" element={<AcadProj menuData={menuData} />} />
+          <Route path="/my_portfolio/WebDev" element={<WebDev menuData={ZenuData} />} />
+          <Route path="/my_portfolio/linkedin" element={<LinkedIn />} />
+          <Route path="/my_portfolio/Guesstimates" element={<Consulting menuData={CenuData} />} />
           {/* <Route path="*" element={<NoPage />} /> */}
           <Route path="*"  element={<ComingSoon />} />
 
